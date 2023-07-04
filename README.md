@@ -19,14 +19,27 @@ Manipular Nó & Listas Ligadas e;
 Manipular Listas Duplamente Ligadas.
 
 Requisitos:
+<br/>
+<br/>
 Pacote ting_file_management
+<br/>
 1 - Implemente uma fila para armazenar os arquivos que serão lidos.
+<br/>
 2 - Implemente uma função txt_importer dentro do módulo file_management capaz de importar notícias a partir de um arquivo TXT, utilizando "\n" como separador.
+<br/>
 3 - Implemente a função process no módulo file_process. Essa função deverá ser capaz de transformar o conteúdo da lista gerada pela função txt_importer em um dicionário que será armazenado dentro da Queue.
+<br/>
 4 - Implemente uma função remove dentro do módulo file_process capaz de remover o primeiro arquivo processado
+<br/>
 5 - Implemente uma função file_metadata dentro do módulo file_process capaz de apresentar as informações superficiais de um arquivo processado.
+<br/>
 6 - Implemente os testes para a classe PriorityQueue capaz de armazenar arquivos pequenos de forma prioritária
+<br/>
+<br/>
 Pacote ting_word_searches
+<br/>
 7 - Implemente uma função exists_word, dentro do módulo word_search, que verifique a existência de uma palavra em todos os arquivos processados.
+<br/>
 8 - Implemente uma função search_by_word dentro do módulo word_search, que busque uma palavra em todos os arquivos processados.
+<br/>
 
